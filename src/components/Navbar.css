@@ -1,0 +1,96 @@
+/* Navbar.css */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937; /* Tailwind's gray-900 */
+    padding: 12px 20px;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+    flex-direction: row;
+    height: 50px;
+    
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav-button {
+    width: 20px;
+    height: 20px;
+    background-color: grey; /* Tailwind's gray-800 */
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #4b5563; /* Tailwind's gray-700 */
+}
+
+
+.nav-actions {
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+}
+
+.nav-button-action {
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 999px;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-button-action:hover {
+  background-color: #1ed760;
+}
+
+.profile-icon {
+  background-color: rgb(199, 45, 199);
+  color: black;
+  font-weight: bold;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-categories {
+  display: flex;
+  gap: 20px;
+  padding: 16px 20px;
+  background-color: #1a1a1a;
+  color: white;
+  font-size: 14px;
+}
+
+.nav-categories p {
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-categories p:hover {
+  background-color: #333;
+}
+
+.c1{
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,37 @@
+/* Display.css */
+
+.display-container {
+    width: 100%;
+    margin: 0.5rem;
+    padding: 1rem 1.5rem 0 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+    flex-direction: row;
+    overflow: auto;
+    transition: background 0.5s ease-in-out;
+}
+
+/* Responsive for large screens */
+@media screen and (min-width: 1024px) {
+    .display-container {
+        width: 75%;
+        margin-left: 0;
+    }
+}
+
+/* Scrollbar styling */
+.display-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.display-container::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+.display-container::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 10px;
+    border: 2px solid #1a1a1a;
+}
